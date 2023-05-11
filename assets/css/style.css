@@ -297,6 +297,98 @@ header {
 
 
 
+.bgTeam {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+.sectionTeamArea {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.sectionTeam {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.sectionTeam .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+.sectionTeam .slide {
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-right: 15px;
+}
+.sectionTeam .slideArea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    padding: 30px;
+}
+
+
+.sectionTeamArea .slidersPointers {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sectionTeamArea .pointer {
+    width: 16px;
+    height: 16px;
+    border: 3px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.sectionTeamArea .pointer.active {
+    background-color: #b28756;
+}
+.sectionTeamAvatar {
+    width: 150px;
+    height: auto;
+}
+.sectionTeamName {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.sectionTeamRole{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+.sectionTeamSocial {
+    display: flex;
+    margin: 20px;
+}
+.sectionTeamSocial a {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    background-color: #bebebe;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+.sectionTeamSocial a:hover {
+    background-color: #b28756;
+}
 
 
 
