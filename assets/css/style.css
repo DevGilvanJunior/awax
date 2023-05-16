@@ -3,6 +3,23 @@
     margin: 0px;
     padding: 0px;
 }
+.buttonUp a {
+    text-decoration: none;
+}
+.buttonUp div {
+    width: 50px;
+    height: 50px;
+    background-color: #b28756;
+    border-radius: 25px;
+    margin-top: -305px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+}
+
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -72,6 +89,12 @@ header {
     font-size: 13px;
     font-weight: 600;
 }
+.buttonDark {
+    background-color: #000;
+}
+.buttonDark:hover {
+    background-color: #b28756;
+}
 
 /*inicio css banner*/
 .banner {
@@ -137,6 +160,7 @@ header {
 .default {
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #ededed;
 }
 .default .sectionTitle,
 .default .sectionDesc {
@@ -158,7 +182,7 @@ header {
     margin: auto;
 }
 .default.light {
-    background-color: #f7f7f7;
+    background-color: #ededed;
 }
 .default.light .sectionTitle,
 .default.light .sectionBody {
@@ -172,8 +196,86 @@ header {
     color: #ffffff;
 }
 
-
-
+footer {
+    background-color: #000;
+    color: #fff;
+}
+.footerArea {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footerArea1, .footerArea2, 
+.footerArea3 {
+    flex: 1;
+}
+.footerArea1 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #999;
+}
+.footerArea1Social {
+    display: flex;
+    margin-bottom: 170px;
+}
+.footerAreaSocialItem {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.footerAreaSocialItem:first-child {
+    margin-left: 0px;
+}
+.footerAreaSocialItem:hover {
+    background-color: #b28756;
+}
+.footerAreaSocialItemMais {
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-left: 3px;
+}
+.footerAreaSocialItemMais:first-child {
+    margin-left: 0px;
+}
+.footerArea1Copy {
+}
+.footerArea1Copy img {
+    width: 16px;
+}
+.footerArea2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 13px;
+    color: #999;
+    line-height: 25px;
+}
+.footerArea3 form {
+    background-color: #373737;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+.footerArea3 input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    outline: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
 
 
 .sectionAboutUs {
@@ -393,6 +495,165 @@ header {
 
 
 
+
+.sectionClient {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.sectionClient .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+.sectionClient .slide {
+    width: 880px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-right: 15px;
+}
+.sectionClient .slideArea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    padding: 30px;
+}
+.sectionClientAspas {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.sectionClientText {
+    color: #555;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+.sectionClientName {
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+.sectionClientRole {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.sectionClientArea .slidersPointers {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.sectionClientArea .pointer {
+    width: 16px;
+    height: 16px;
+    border: 3px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.sectionClientArea .pointer.active {
+    background-color: #b28756;
+}
+
+
+
+
+
+
+.sectionEmpresas {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.sectionEmpresasArea {
+    display: flex;
+    align-items: center;
+}
+.sectionEmpresa {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+.sectionPrice {
+    display: flex;
+}
+.sectionPriceItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+
+}
+.sectionPriceItemType {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.sectionPriceItemValor {
+    font-size: 30px;
+    font-weight: 600;
+}
+.sectionPriceItemPlano {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #999;
+}
+.sectionPriceItemInfo {
+    text-align: center;
+}
+
+
+.sectionMap {
+    background-image: url('../images/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sectionMapArea {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+.sectionMapInfo {
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    color: #999;
+}
+.sectionMapInfoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sectionMapInfoItemImg {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.sectionMapInfoItemImg img {
+    width: 15px;
+    height: auto;
+}
 
 
 
